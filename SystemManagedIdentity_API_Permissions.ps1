@@ -3,7 +3,7 @@
 Connect-MgGraph -Scopes Application.Read.All, AppRoleAssignment.ReadWrite.All, RoleManagement.ReadWrite.Directory
 
 #Object ID of the managed identity
-$managedIdentityId = "83409641-5384-4b7e-be0a-14ef228e61e0"
+$managedIdentityId = ""
 #Role to grant
 $roleName = "User.ReadWrite.All"
 #app id bi = 00000009-0000-0000-c000-000000000000
